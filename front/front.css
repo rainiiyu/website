@@ -1,0 +1,60 @@
+body {
+    font-family:monospace;
+    color: white;
+    background:#8996b4;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+#darkmodecomp {
+    position:fixed;
+    z-index: -100;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    animation: fade-up 3s;
+}
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h1 {
+    text-align: left;
+    margin: 5%;
+    font-size: 6em;
+}
+
+ul {
+    list-style-type:none;
+}
+
+li {
+    margin: 2% 4%;
+    font-size: 3em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover  {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#visitor-log {
+    color:aqua;
+}
+
+img {
+    size: 5%;
+}
