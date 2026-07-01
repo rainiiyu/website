@@ -10,11 +10,13 @@ body {
 #darkmodecomp {
     position:fixed;
     z-index: -100;
-    right: 0;
+    left: 0;
     bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
     animation: fade-up 3s;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 100%;
 }
 
 @keyframes fade-up {
@@ -26,19 +28,27 @@ body {
     }
 }
 
+#UI {
+    margin-left: 5%;
+}
+
 h1 {
     text-align: left;
-    margin: 5%;
-    font-size: 6em;
+    font-size: 6vh;
+    margin: 7vh 0 5vh 0;
+    padding: 0;
 }
+
 
 ul {
     list-style-type:none;
+    margin: 0;
+    padding: 0;
 }
 
 li {
-    margin: 2% 4%;
-    font-size: 3em;
+    font-size: 2vh;
+    margin: 2vh 0
 }
 
 a {
