@@ -4,9 +4,7 @@ body {
     background:#8996b4;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    width: 100%;
-    height:100%;
-}
+    }
 
 #darkmodecomp {
     position:fixed;
